@@ -21,7 +21,7 @@ SELECT * FROM tm_product_qna WHERE p_code=#{p_code} ORDER BY pq_no DESC
 
 <insert id="insertProductQna" parameterType="ProductQna">
 INSERT INTO tm_product_qna(pq_no, pq_category, pq_title, pq_content, pq_hits, p_code, u_id) 
-VALUES(tm_product_qna_SEQ.NEXTVAL ,#{pq_category},#{pq_title},#{pq_content},#{pq_hits},#{p_code},#{u_id})
+VALUES(default ,#{pq_category},#{pq_title},#{pq_content},#{pq_hits},#{p_code},#{u_id})
 </insert>
 
 <update id="updateProductQna" parameterType="ProductQna">

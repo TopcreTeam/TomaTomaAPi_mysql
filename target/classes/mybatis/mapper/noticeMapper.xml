@@ -36,7 +36,7 @@
 	<!-- 관리자페이지용  -->
 	<insert id="insertNotice" parameterType="Notice">
 		INSERT INTO tm_notice(n_no, n_category, n_title, n_content, a_id, n_date, n_hits)
-		VALUES(TM_NOTICE_SEQ.NEXTVAL, #{n_category}, #{n_title}, #{n_content}, #{a_id}, default, 0)
+		VALUES(default, #{n_category}, #{n_title}, #{n_content}, #{a_id}, default, 0)
 	</insert> 
 	
 	<update id="updateNotice" parameterType="Notice">

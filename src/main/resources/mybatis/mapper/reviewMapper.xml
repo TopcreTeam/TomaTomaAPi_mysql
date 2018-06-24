@@ -19,7 +19,7 @@
 	
 	<insert id="insertReview" parameterType="Review">
 		INSERT INTO tm_product_review(rev_no, rev_title, rev_content, rev_hits, p_code, u_id)
-		VALUES(tm_product_review_SEQ.NEXTVAL, #{rev_title}, #{rev_content},#{rev_hits}, #{p_code}, #{u_id})
+		VALUES(default, #{rev_title}, #{rev_content},#{rev_hits}, #{p_code}, #{u_id})
 	</insert>
 	
 	<update id="updateReview"  parameterType="Review">

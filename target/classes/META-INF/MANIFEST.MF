@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: ShoppingMallAPI
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: topcredu
+Built-By: JasonChoi
 Implementation-Vendor-Id: shop
 Build-Jdk: 1.8.0_161
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo

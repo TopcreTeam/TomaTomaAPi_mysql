@@ -36,7 +36,7 @@
 	<!-- 관리자페이지용  -->
 	<insert id="insertFaq" parameterType="Faq">
 		INSERT INTO tm_faq(f_no, f_category, f_title, f_content, a_id, f_date, f_hits)
-		VALUES(TM_FAQ_SEQ.NEXTVAL, #{f_category}, #{f_title}, #{f_content}, #{a_id}, default, 0)
+		VALUES(default, #{f_category}, #{f_title}, #{f_content}, #{a_id}, default, 0)
 	</insert> 
 	
 	<update id="updateFaq" parameterType="Faq">

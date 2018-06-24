@@ -72,11 +72,11 @@
 		</dependency>
 
 		<!-- Oracle JDBC driver -->
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.3</version>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.bgee.log4jdbc-log4j2</groupId>
@@ -89,6 +89,13 @@
 	        <artifactId>hibernate-core</artifactId>
 	        <version>5.2.10.Final</version>
 	    </dependency>
+	    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>5.1.46</version>
+		</dependency>
+			    
 	    
 <!-- 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -97,13 +104,13 @@
 
 	</dependencies>
 	
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<id>oracle</id>
 			<name>ORACLE JDBC Repository</name>
 			<url>http://www.datanucleus.org/downloads/maven2/</url>
 		</repository>
-	</repositories>
+	</repositories> -->
 
 	<build>
 		<plugins>

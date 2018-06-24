@@ -34,7 +34,7 @@
 	</select>
 	
 	<insert id="insertQna" parameterType="Qna">
-		INSERT INTO tm_qna VALUES(TM_QNA_SEQ.NEXTVAL, #{q_title}, #{q_content}, #{u_id}, 'n', DEFAULT)
+		INSERT INTO tm_qna VALUES(default, #{q_title}, #{q_content}, #{u_id}, 'n', DEFAULT)
 	</insert>
 	
 	<update id="updateQna" parameterType="Qna">

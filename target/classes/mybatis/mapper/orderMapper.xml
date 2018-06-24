@@ -43,7 +43,7 @@
 		SELECT MAX(O_NO) FROM TM_ORDER
 	</select> -->
 	<insert id="orderDetailInsert" parameterType="OrderDetail">
-		INSERT INTO TM_ORDER_DETAIL VALUES (TM_ORDER_DETAIL_SEQ.NEXTVAL,#{ono},#{odimg},#{odpname},#{odpprice},#{odpamount})
+		INSERT INTO TM_ORDER_DETAIL VALUES (default,#{ono},#{odimg},#{odpname},#{odpprice},#{odpamount})
 	</insert>
 	
 <!-- 	<delete id="orderDetailDelete">
